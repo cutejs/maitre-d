@@ -1,0 +1,33 @@
+{
+  "name": "maitre-d",
+  "version": "0.0.1",
+  "description": "General purpose Node virtual hosting platform with a control panel",
+  "main": "maitre-d.js",
+  "scripts": {
+    "test": "echo \"someday, we will have ice cream\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cutejs/maitre-d.git"
+  },
+  "keywords": [
+    "virtual",
+    "hosting",
+    "vhost",
+    "node",
+    "server",
+    "multiple",
+    "applications",
+    "domains",
+    "domain-based",
+    "router",
+    "reverse-proxy",
+    "proxy"
+  ],
+  "author": "Astrid Fesz-Nguyen IV",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cutejs/maitre-d/issues"
+  },
+  "homepage": "https://github.com/cutejs/maitre-d#readme"
+}

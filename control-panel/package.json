@@ -1,0 +1,12 @@
+{
+  "name": "ctrl-p",
+  "version": "0.0.1",
+  "description": "Default control panel for maitre-d",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Use top level test command\"",
+    "start": "node server.js"
+  },
+  "author": "Astrid Fesz-Nguyen IV",
+  "license": "MIT"
+}
