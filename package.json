@@ -4,7 +4,8 @@
   "description": "General purpose Node virtual hosting platform with a control panel",
   "main": "maitre-d.js",
   "scripts": {
-    "test": "echo \"someday, we will have ice cream\""
+    "test": "tape test/*.js",
+    "hosts": "sudo ./test/hosts.sh"
   },
   "repository": {
     "type": "git",
@@ -29,5 +30,10 @@
   "bugs": {
     "url": "https://github.com/cutejs/maitre-d/issues"
   },
-  "homepage": "https://github.com/cutejs/maitre-d#readme"
+  "homepage": "https://github.com/cutejs/maitre-d#readme",
+  "devDependencies": {
+    "request": "^2.88.0",
+    "request-promise-native": "^1.0.7",
+    "tape": "^4.11.0"
+  }
 }
