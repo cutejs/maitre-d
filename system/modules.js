@@ -18,7 +18,7 @@ function Module (hostname, pathToModule, Adapter, env) {
   const App = require(pathToModule)
   this.hostname = hostname
   this.app = App(env)
-  this.handler = new Adapter(this.app)
+  this.handler = Adapter(this.app)
 }
 
 module.exports = Modules
